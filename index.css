@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    background-color: black;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    
+    padding: 10px 5px 10px 5px;
+    font-family: 'ubuntu', sans-serif;
+   
+    
+    }
+#logo img{
+    width: 40px;
+  background-color: black;
+  padding: 0 8px;
+
+}
+#logo{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    font-size: larger;
+    padding-right: 20px ;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    
+
+}
+.songList span{
+    background-color:white;
+}
+.songList{
+    font-family: 'Varela Round', sans-serif;
+    font-size:1.3vw;
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+width: 30vw;
+    margin: 6px 5px;
+    border-radius: 4px;
+    padding: 11px 10px;
+    border-radius: 30px;
+    height: 10px;
+    justify-content:space-between;
+display: flex;
+
+
+}
+.songListBox{
+    width: 40vw;
+    background-color: black;
+  margin-top: 20px;
+  
+
+}
+
+
+.songList i{
+    cursor: pointer;
+}
+
+.center{
+    background-color: black;
+    color: white;
+    min-height: 70vh;
+    width: 80%;
+   margin: 20px auto;
+  display: flex;
+  font-family: 'Varela Round', sans-serif;
+  background-image: url('bg.jpg');
+  background-position: center;
+  background-size: 100%;
+  padding: 10px 10px;
+  font-size:xx-large;
+  border-radius: 10px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  
+  
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    height: 40px;
+    justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 30px 0px;
+
+
+}
+
+#songProgressBar{
+    width: 75%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 6px;
+    bottom: 5vw;
+    display: flex;
+    position: absolute;
+
+   
+}
+.icons{
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: black;
+cursor: pointer;
+display: flex;
+position: absolute;
+bottom: 1px;
+}
+.songList img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+}
+.songInfo{
+    position:absolute;
+    left: 16vw;
+  
+    background-color: black;
+    font-family: 'Varela Round', sans-serif;
+
+}
+.gif{
+    position:absolute;
+    left: 12.5vw;
+    
+    background-color: black;
+    font-family: 'Varela Round', sans-serif;   
+}
+.gif img{
+    opacity: 0;
+    transition: 0.1s ease-in;
+}
+
+.timeUpdate{
+    background-color: black;
+    position: absolute;
+    right: 15vw;
+}
+
+
+
+@media screen and (max-width:500px){
+    .songList{
+        font-size: 3vw;
+        width: 70vw;
+    }
+    .songInfo{
+        font-size: 3vw;
+       left: 28vw;
+        bottom: 15.5vw;
+    }
+    .icons{
+        bottom: 1vw;
+    }
+    .gif{
+      
+       bottom: 14.5vw;
+       left: 13vw;
+
+    }
+   #songProgressBar{
+       display: flex;
+       position: absolute;
+       bottom: 20vw;
+   }
+   .timeUpdate{
+    font-size: 3vw;
+   right: 14vw;
+    bottom: 15.5vw;
+}
+   
+   
+}
+
+
