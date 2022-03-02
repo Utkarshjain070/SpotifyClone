@@ -1,5 +1,5 @@
 
-let audioElement = new Audio("Songs/1.mpeg");
+let audioElement = new Audio("Songs/7.mpeg");
 let songProgressBar = document.getElementById('songProgressBar');
 
 let songList = Array.from(document.getElementsByClassName('songList'));
