@@ -19,19 +19,19 @@ let index = 1;
 10- tera yaar hoon main
 11 - allah ke bande*/
 let songs = [
-    { songName: "Teri Jhalak Srivalli - Pushpa", coverPath: "songs banner/2.png", songPath: "songs/1.mpeg", songNumber: '1', duration: "03:44" },
+    { songName: "Teri Jhalak Srivalli - Pushpa", coverPath: "songs banner/2.png", songPath: "Songs/1.mpeg", songNumber: '1', duration: "03:44" },
 
 
-    { songName: "Aarambh Hai Prachand", coverPath: "songs banner/3.png", songPath: "songs/2.mpeg", songNumber: '2', duration: "04:55" },
-    { songName: "Bhaag Milkha Bhaag", coverPath: "songs banner/5.jfif", songPath: "songs/3.mpeg", songNumber: '3', duration: "04:29" },
-    { songName: "Chidiya - Villan", coverPath: "songs banner/9.jpg", songPath: "songs/4.mpeg", songNumber: '4', duration: "04:13" },
-    { songName: "Dil Deewana - Sonu Nigam", coverPath: "songs banner/6.jfif", songPath: "songs/5.mpeg", songNumber: '5', duration: "07:06" },
-    { songName: "Ek Raat - Villain", coverPath: "songs banner/7.jfif", songPath: "songs/6.mpeg", songNumber: '6', duration: "03:44" },
-    { songName: "Kal Ho Na Ho", coverPath: "songs banner/10.jfif", songPath: "songs/7.mpeg", songNumber: '7', duration: "05:21" },
-    { songName: "Kar Har Maidan Fateh", coverPath: "songs banner/1.jfif", songPath: "songs/8.mpeg", songNumber: '8', duration: "05:11" },
-    { songName: "Radha Krishna", coverPath: "songs banner/4.jpg", songPath: "songs/9.mpeg", songNumber: '9', duration: "01:30" },
-    { songName: "Tera Yaar Hoon Main ", coverPath: "songs banner/8.jfif", songPath: "songs/10.mpeg", songNumber: '10', duration: "04:24" },
-    { songName: "Allah ke Bande", coverPath: "songs banner/2.png", songPath: "songs/11.mpeg", songNumber: '11', duration: "04:06" },
+    { songName: "Aarambh Hai Prachand", coverPath: "songs banner/3.png", songPath: "Songs/2.mpeg", songNumber: '2', duration: "04:55" },
+    { songName: "Bhaag Milkha Bhaag", coverPath: "songs banner/5.jfif", songPath: "Songs/3.mpeg", songNumber: '3', duration: "04:29" },
+    { songName: "Chidiya - Villan", coverPath: "songs banner/9.jpg", songPath: "Songs/4.mpeg", songNumber: '4', duration: "04:13" },
+    { songName: "Dil Deewana - Sonu Nigam", coverPath: "songs banner/6.jfif", songPath: "Songs/5.mpeg", songNumber: '5', duration: "07:06" },
+    { songName: "Ek Raat - Villain", coverPath: "songs banner/7.jfif", songPath: "Songs/6.mpeg", songNumber: '6', duration: "03:44" },
+    { songName: "Kal Ho Na Ho", coverPath: "songs banner/10.jfif", songPath: "Songs/7.mpeg", songNumber: '7', duration: "05:21" },
+    { songName: "Kar Har Maidan Fateh", coverPath: "songs banner/1.jfif", songPath: "Songs/8.mpeg", songNumber: '8', duration: "05:11" },
+    { songName: "Radha Krishna", coverPath: "songs banner/4.jpg", songPath: "Songs/9.mpeg", songNumber: '9', duration: "01:30" },
+    { songName: "Tera Yaar Hoon Main ", coverPath: "songs banner/8.jfif", songPath: "Songs/10.mpeg", songNumber: '10', duration: "04:24" },
+    { songName: "Allah ke Bande", coverPath: "songs banner/2.png", songPath: "Songs/11.mpeg", songNumber: '11', duration: "04:06" },
 ]
 
 
@@ -112,8 +112,8 @@ backward.addEventListener('click', () => {
         document.getElementsByClassName('gif')[0].getElementsByTagName('img')[0].style.opacity = 1;
         mainPlay.classList.remove('fa-circle-play');
         mainPlay.classList.add('fa-circle-pause');
-        document.getElementsByClassName('songInfo')[0].innerText = songs[9].songName;
-        index = 10;
+        document.getElementsByClassName('songInfo')[0].innerText = songs[10].songName;
+        index = 11;
 
 
 
