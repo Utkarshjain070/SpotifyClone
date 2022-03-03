@@ -150,7 +150,7 @@ forward.addEventListener('click', () => {
     else {
 
         pauseAll();
-        audioElement.src = `songs/${index + 1}.mpeg`;
+        audioElement.src = `Songs/${index + 1}.mpeg`;
         audioElement.currentTime = 0;
         audioElement.play();
         document.getElementsByClassName('gif')[0].getElementsByTagName('img')[0].style.opacity = 1;
@@ -298,7 +298,7 @@ document.addEventListener('keyup', event => {
         else {
     
             pauseAll();
-            audioElement.src = `songs/${index + 1}.mpeg`;
+            audioElement.src = `Songs/${index + 1}.mpeg`;
             audioElement.currentTime = 0;
             audioElement.play();
             document.getElementsByClassName('gif')[0].getElementsByTagName('img')[0].style.opacity = 1;
